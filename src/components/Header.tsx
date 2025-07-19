@@ -18,7 +18,11 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">CVY Group</h1>
+            <img 
+              src="/logo-cvy.png" 
+              alt="CVY Group" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -37,11 +41,11 @@ export function Header() {
           {/* Phone Number & CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+1234567890"
+              href="tel:+18007704592"
               className="flex items-center space-x-2 text-gray-700 hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4" />
-              <span className="font-medium">(123) 456-7890</span>
+              <span className="font-medium">800.770.4592</span>
             </a>
             <Button asChild>
               <a href="#contact">Get Started</a>
@@ -75,11 +79,11 @@ export function Header() {
               ))}
               <div className="px-3 py-2 border-t border-gray-100 mt-2">
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+18007704592"
                   className="flex items-center space-x-2 text-gray-700 hover:text-primary transition-colors mb-3"
                 >
                   <Phone className="h-4 w-4" />
-                  <span className="font-medium">(123) 456-7890</span>
+                  <span className="font-medium">800.770.4592</span>
                 </a>
                 <Button asChild className="w-full">
                   <a href="#contact">Get Started</a>

@@ -25,21 +25,25 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">CVY Group</h3>
+            <img 
+              src="/logo-cvy.png" 
+              alt="CVY Group" 
+              className="h-12 w-auto mb-4 brightness-0 invert"
+            />
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Your trusted financial partner since 2001. We provide comprehensive 
-              financial services to help individuals and businesses achieve their goals.
+              Since 2001 we have been helping individuals and companies all over 
+              the country with their tax and accounting needs.
             </p>
             
             {/* Social Links */}
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.facebook.com/CVY.MEC/" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.twitter.com/Cvy_group" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.linkedin.com/" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -80,7 +84,7 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-white font-medium">(123) 456-7890</p>
+                  <p className="text-white font-medium">800.770.4592</p>
                   <p className="text-gray-300 text-sm">Mon-Fri: 9AM-6PM</p>
                 </div>
               </div>
@@ -96,8 +100,8 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-white font-medium">123 Financial District</p>
-                  <p className="text-gray-300 text-sm">Suite 456, Downtown</p>
+                  <p className="text-white font-medium">8221 Old Courthouse Rd</p>
+                  <p className="text-gray-300 text-sm">Suite 207, Vienna, VA 22182</p>
                 </div>
               </div>
             </div>

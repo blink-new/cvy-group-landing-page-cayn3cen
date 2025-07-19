@@ -16,7 +16,7 @@ export function Contact() {
     {
       icon: Phone,
       title: 'Phone',
-      details: '(123) 456-7890',
+      details: '800.770.4592',
       description: 'Call us during business hours'
     },
     {
@@ -28,8 +28,8 @@ export function Contact() {
     {
       icon: MapPin,
       title: 'Office',
-      details: '123 Financial District, Suite 456',
-      description: 'Downtown Business Center'
+      details: '8221 Old Courthouse Rd, Suite 207',
+      description: 'Vienna, VA 22182'
     },
     {
       icon: Clock,
@@ -175,7 +175,7 @@ export function Contact() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button variant="secondary" className="flex-1" asChild>
-                    <a href="tel:+1234567890">
+                    <a href="tel:+18007704592">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </a>
@@ -198,8 +198,8 @@ export function Contact() {
                       Visit Our Office
                     </h4>
                     <p className="text-gray-600">
-                      123 Financial District, Suite 456<br />
-                      Downtown Business Center
+                      8221 Old Courthouse Rd, Suite 207<br />
+                      Vienna, VA 22182
                     </p>
                   </div>
                 </div>
